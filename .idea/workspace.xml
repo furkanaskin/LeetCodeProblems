@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1878464f-5ccc-4fed-8775-adabcbc0d46a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordSearch/WordSearchDivideAndConquer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordSearch/WordSearchDivideAndConquerMaster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Furkan &lt;seeingisknow@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bKbccF6H7CrZOPzmspJ9OGktBJ" />
@@ -29,16 +36,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wordSearch" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wordSearch" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wordSearch" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WordSearchBasic">
+  <component name="RunManager" selected="Python.WordSearchDivideAndConquer">
     <configuration name="WordSearchBasic" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="LeetCodeProblems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,8 +94,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="WordSearchDivideAndConquer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeProblems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wordSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordSearch/WordSearchDivideAndConquer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WordSearchDivideAndConquerMaster" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeProblems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wordSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordSearch/WordSearchDivideAndConquerMaster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WordSearchDivideAndConquer" />
+        <item itemvalue="Python.WordSearchDivideAndConquerMaster" />
         <item itemvalue="Python.WordSearchBubbleSort" />
       </list>
     </recent_temporary>
@@ -100,22 +157,50 @@
       <option name="presentableId" value="Default" />
       <updated>1588383812311</updated>
       <workItem from="1588383820666" duration="159000" />
-      <workItem from="1588384775150" duration="11117000" />
+      <workItem from="1588384775150" duration="24658000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1588448825477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588448825477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588384805851">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-245.-1057.1920.1057@0.0.1440.900" timestamp="1588384805851" />
+    <state x="474" y="-731" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588457296230">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="474" y="-731" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588457296230" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1588386525668">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588386525668" />
+    <state x="478" y="-830" key="#xdebugger.evaluate" timestamp="1588451213939">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="478" y="-830" key="#xdebugger.evaluate/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588451213939" />
+    <state x="316" y="-965" key="CommitChangelistDialog2" timestamp="1588448825311">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="316" y="-965" key="CommitChangelistDialog2/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588448825311" />
     <state x="566" y="-636" key="Github.ShareDialog" timestamp="1588448707226">
       <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
@@ -124,45 +209,92 @@
       <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
     <state x="473" y="-828" key="Github.UntrackedFilesDialog/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588448752357" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1588448543822">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1588462134860">
       <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588448543822" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588462134860" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588396244030" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1588448543821">
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1588462134858">
       <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588448543821" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588462134858" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588396244026" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1588448543820">
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1588462134857">
       <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588448543820" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588462134857" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588396244021" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1588448543821">
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1588462134859">
       <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588448543821" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588462134859" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588396244029" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1588394190682">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1588460266629">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588460266629" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588394190682" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1588394190680">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1588460266627">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588460266627" />
     <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588394190680" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1588394190680">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1588460266626">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588460266626" />
     <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588394190680" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1588394190681">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1588460266628">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
     </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588460266628" />
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900/-245.-1080.1920.1080@0.0.1440.900" timestamp="1588394190681" />
+    <state x="471" y="-831" key="RollbackChangesDialog" timestamp="1588449727224">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="471" y="-831" key="RollbackChangesDialog/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588449727224" />
+    <state x="224" y="-901" key="SettingsEditor" timestamp="1588449860904">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="224" y="-901" key="SettingsEditor/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588449860904" />
+    <state x="568" y="-619" key="VCS.ChangelistChooser" timestamp="1588448789724">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="568" y="-619" key="VCS.ChangelistChooser/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588448789724" />
+    <state x="315" y="-800" key="Vcs.Push.Dialog.v2" timestamp="1588448826960">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="315" y="-800" key="Vcs.Push.Dialog.v2/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588448826960" />
+    <state x="245" y="-804" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1588456319147">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="245" y="-804" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588456319147" />
+    <state x="380" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1588458816052">
+      <screen x="-245" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="380" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-245.-1080.1920.1080@-245.-1080.1920.1080" timestamp="1588458816052" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.found" language="Python" />
+        <watch expression="self.listFromQuery" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCodeProblems$test.coverage" NAME="WordSearchBasic Coverage Results" MODIFIED="1588448543809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LeetCodeProblems$WordSearchBubbleSort.coverage" NAME="WordSearchBubbleSort Coverage Results" MODIFIED="1588395035667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCodeProblems$WordSearchDivideAndConquerMaster.coverage" NAME="WordSearchDivideAndConquerMaster Coverage Results" MODIFIED="1588462127461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wordSearch" />
+    <SUITE FILE_PATH="coverage/LeetCodeProblems$test.coverage" NAME="WordSearchBasic Coverage Results" MODIFIED="1588462134850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCodeProblems$WordSearchDivideAndConquer.coverage" NAME="WordSearchDivideAndConquer Coverage Results" MODIFIED="1588462504420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wordSearch" />
+    <SUITE FILE_PATH="coverage/LeetCodeProblems$WordSearchBubbleSort.coverage" NAME="WordSearchBubbleSort Coverage Results" MODIFIED="1588456411288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
