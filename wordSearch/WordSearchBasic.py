@@ -22,6 +22,8 @@ class WordSearchBasic:
     board = [
         ['A', 'B', 'C', 'E'],
         ['S', 'F', 'C', 'S'],
+        ['S', 'G', 'X', 'S'],
+        ['S', 'B', 'X', 'S'],
         ['A', 'D', 'E', 'E']
     ]
 
@@ -30,6 +32,7 @@ class WordSearchBasic:
             return False
 
         for y in self.board:
+            print("Searching:", y)
             for x in y:
                 if 200 < len(self.board) < 1:
                     return False
@@ -57,7 +60,7 @@ class WordSearchBasic:
 
 
 if __name__ == '__main__':
-    wordSearchBasic = WordSearchBasic("aBcCeed")
+    wordSearchBasic = WordSearchBasic("sBXxSAb")
     if wordSearchBasic.isExists():
         print(BColors.OKGREEN + "Query found." + BColors.ENDC)
     else:

@@ -18,9 +18,14 @@ class WordSearchBubbleSort:
             print("Query is " + self.query)
 
     query = None
+    chars = []
+    lastIndex = int(0)
+    found = ""
     board = [
         ['A', 'B', 'C', 'E'],
         ['S', 'F', 'C', 'S'],
+        ['S', 'G', 'X', 'S'],
+        ['S', 'B', 'X', 'S'],
         ['A', 'D', 'E', 'E']
     ]
 
@@ -33,44 +38,45 @@ class WordSearchBubbleSort:
                     unsortedList[i + 1] = temp
         return unsortedList
 
-    def innerLoop(self, char):
-        if 200 < len(self.board) < 1:
-            return False
-
-        for y in self.board:
-            for x in y:
-                if len(y) > 200 or len(y) < 1:
-                    return False
-
-                if char == x:
-                    y.remove(x)
-                    return True
+    def innerLoop(self, searchingChar):
+        print("Searching:", self.chars)
+        for innerIndex in range(self.lastIndex, len(self.chars)):
+            if self.chars[innerIndex] == searchingChar:
+                self.found += searchingChar
+                self.lastIndex = innerIndex
+                self.chars.pop(innerIndex)
+                print("Found : ", self.found)
+                return True
 
     def sortBoard(self):
         for i in range(0, len(self.board)):
-            self.board[i] = self.bubbleSort(self.board[i])
+            for y in self.board[i]:
+                self.chars.append(y)
+
+        self.bubbleSort(self.chars)
 
     def isExists(self):
         begin_time = datetime.datetime.now()
         listFromQuery = list(self.query.upper())
+        self.bubbleSort(listFromQuery)
         self.sortBoard()
-        found = ""
 
         for i in listFromQuery:  # For loop inside query
-            if self.query.upper() == found:
+            if list(self.query.upper()).sort() == list(self.found).sort() and len(list(self.found)) == len(
+                    list(self.query.upper())):
                 return
 
             if self.innerLoop(i):  # For loop inside board
-                found += i
                 continue
 
         # hour:minute:second:microsecond, execution time of function
         print(BColors.OKBLUE + "Execution time :", datetime.datetime.now() - begin_time, BColors.ENDC)
-        return self.query.upper() == found
+        return list(self.query.upper()).sort() == list(self.found).sort() and len(list(self.found)) == len(
+            list(self.query.upper()))
 
 
 if __name__ == '__main__':
-    wordSearchBubbleSort = WordSearchBubbleSort("SeE")
+    wordSearchBubbleSort = WordSearchBubbleSort("sBXxSAfb")
 
     if wordSearchBubbleSort.isExists():
         print(BColors.OKGREEN + "Query found." + BColors.ENDC)

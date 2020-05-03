@@ -102,7 +102,7 @@ class WordSearchDivideAndConquer:
 
 
 if __name__ == '__main__':
-    wordSearchDivideAndConquer = WordSearchDivideAndConquer("AbCcED")
+    wordSearchDivideAndConquer = WordSearchDivideAndConquer("sBXxSAb")
     if wordSearchDivideAndConquer.isExists():
         print(BColors.OKGREEN + "Query found." + BColors.ENDC)
     else:
