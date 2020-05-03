@@ -13,7 +13,7 @@ class WordSearchDivideAndConquer:
 
         if not self.query:
             sys.exit("Query can't be empty.")
-        elif 1 > len(self.query) > 1000:
+        elif not len(self.query) in range(1, 1001):
             sys.exit("Query len must be 1 between 1000")
         else:
             print("Query is " + self.query)
