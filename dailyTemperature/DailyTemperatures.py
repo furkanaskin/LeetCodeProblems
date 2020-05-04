@@ -1,7 +1,7 @@
 import sys
 
 
-# https://leetcode.com/problems/word-search/description/
+# https://leetcode.com/problems/daily-temperatures/description/
 
 class DailyTemperatures:
     temperatures = [73, 74, 75, 71, 69, 72, 76, 73]
